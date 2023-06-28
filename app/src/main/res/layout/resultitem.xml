@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="onCurrentMatchClick"
+        android:background="#1f0fe3"
+
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/homeTeamNameR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/white">
+
+            </TextView>
+            <TextView
+                android:id="@+id/homeTeamCityR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/white">
+
+            </TextView>
+        </LinearLayout>
+            <ImageView
+                android:id="@+id/homeTeamEmblemR"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                >
+
+            </ImageView>
+            <TextView
+                android:id="@+id/scoreHomeR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:textColor="@color/white">
+
+            </TextView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  --- "
+                android:textColor="@color/white">
+
+            </TextView>
+            <TextView
+                android:id="@+id/scoreGuestR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:textColor="@color/white">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/guestTeamEmblemR"
+                android:layout_width="60dp"
+                android:layout_height="60dp">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/guestTeamNameR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/white">
+
+            </TextView>
+            <TextView
+                android:id="@+id/guestTeamCityR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/white">
+
+            </TextView>
+        </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Цвет фона -->
+    <corners android:radius="7dp" /> <!-- Радиус скругления границ (здесь используется 8dp) -->
+    <stroke
+        android:width="3dp"
+    android:color="#1309e8"
+    />
+</shape>

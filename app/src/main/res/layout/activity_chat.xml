@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_element"
+    tools:context=".ChatActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/ic_sendbutton"
+        app:backgroundTint="#1309e8"
+        app:fabSize="mini"
+        android:tint="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/messagetextview"
+        android:layout_toLeftOf="@id/floatingActionButton">
+        <EditText
+            android:id="@+id/messageField"
+            android:layout_width="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_height="40dp"
+            android:hint="Введите сообщение..."
+            android:inputType="textLongMessage"
+            android:textSize="18sp"
+            android:textColorHint="#4a4745"
+            >
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <ListView
+            android:id="@+id/listofmessages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="70dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+            >
+
+        </ListView>
+
+
+
+
+
+
+
+</RelativeLayout>

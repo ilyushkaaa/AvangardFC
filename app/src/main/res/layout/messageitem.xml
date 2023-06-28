@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/message_user"
+        android:textStyle="normal|bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/message_time"
+        android:textColor="@color/black"
+        />
+    <com.github.library.bubbleview.BubbleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/message_text"
+       android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_below="@id/message_user"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        app:angle="8dp"
+        app:arrowWidth="6dp"
+        app:arrowPosition="10dp"
+        app:bubbleColor="#0991e6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <com.github.library.bubbleview.BubbleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/message_text_me"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_marginStart="100dp"
+        android:layout_below="@id/message_user"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        app:angle="8dp"
+        app:arrowWidth="6dp"
+        app:arrowPosition="10dp"
+        app:bubbleColor="#1208e5"
+        app:arrowLocation="right"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+
+
+</RelativeLayout>

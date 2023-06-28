@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "860490719295",
+    "project_id": "avangardkurskfc",
+    "storage_bucket": "avangardkurskfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860490719295:android:a21bd496e6019f18a4988a",
+        "android_client_info": {
+          "package_name": "com.example.avangard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860490719295-crfe5lrc8r3kskhqbac9cs786f4qcese.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avangard",
+            "certificate_hash": "68f0bad1d9358d72d15fc9888fdc4bbd47bcab18"
+          }
+        },
+        {
+          "client_id": "860490719295-74g2dq172fccr1vm6nrmun24aacva91q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXtW4v_db8fgSw1PYEYHiQuA2fAyA_Tws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860490719295-74g2dq172fccr1vm6nrmun24aacva91q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
